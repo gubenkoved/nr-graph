@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NRGraph", "NRGraph\NRGraph.csproj", "{350436C7-7AED-4161-99A6-24506596A022}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphLib", "GraphLib\GraphLib.csproj", "{57B9772A-6DBE-49FD-84B9-E2AFB03A242B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{350436C7-7AED-4161-99A6-24506596A022}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{350436C7-7AED-4161-99A6-24506596A022}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{350436C7-7AED-4161-99A6-24506596A022}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{350436C7-7AED-4161-99A6-24506596A022}.Debug|x86.ActiveCfg = Debug|x86
+		{350436C7-7AED-4161-99A6-24506596A022}.Debug|x86.Build.0 = Debug|x86
+		{350436C7-7AED-4161-99A6-24506596A022}.Release|Any CPU.ActiveCfg = Release|x86
+		{350436C7-7AED-4161-99A6-24506596A022}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{350436C7-7AED-4161-99A6-24506596A022}.Release|Mixed Platforms.Build.0 = Release|x86
+		{350436C7-7AED-4161-99A6-24506596A022}.Release|x86.ActiveCfg = Release|x86
+		{350436C7-7AED-4161-99A6-24506596A022}.Release|x86.Build.0 = Release|x86
+		{57B9772A-6DBE-49FD-84B9-E2AFB03A242B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57B9772A-6DBE-49FD-84B9-E2AFB03A242B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57B9772A-6DBE-49FD-84B9-E2AFB03A242B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{57B9772A-6DBE-49FD-84B9-E2AFB03A242B}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{57B9772A-6DBE-49FD-84B9-E2AFB03A242B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{57B9772A-6DBE-49FD-84B9-E2AFB03A242B}.Debug|x86.Build.0 = Debug|Any CPU
+		{57B9772A-6DBE-49FD-84B9-E2AFB03A242B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57B9772A-6DBE-49FD-84B9-E2AFB03A242B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57B9772A-6DBE-49FD-84B9-E2AFB03A242B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{57B9772A-6DBE-49FD-84B9-E2AFB03A242B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{57B9772A-6DBE-49FD-84B9-E2AFB03A242B}.Release|x86.ActiveCfg = Release|Any CPU
+		{57B9772A-6DBE-49FD-84B9-E2AFB03A242B}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

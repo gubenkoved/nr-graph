@@ -1,0 +1,24 @@
+﻿<Window x:Class="NRGraph.WayEditorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Редактировать путь" WindowStartupLocation="CenterOwner" ResizeMode="NoResize" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" d:DesignHeight="246" d:DesignWidth="187" SizeToContent="WidthAndHeight" Loaded="Window_Loaded" WindowStyle="None" AllowsTransparency="True" Background="#00000000">
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
+    </Window.Resources>
+    <Border Background="White" BorderThickness="3" CornerRadius="2" BorderBrush="Gray" SnapsToDevicePixels="True">
+        <Grid>
+            <StackPanel>
+                <GroupBox  VerticalAlignment="Top" Padding="3" Margin="5" Header="Редактировать путь">
+                    <StackPanel>
+                        <RadioButton Name="WeightIsLen" Content="Вес как длина пути" Margin="4" Checked="Data_Changed" />
+                        <RadioButton Name="WeightManual" Content="Задать вручную" Margin="4" Checked="Data_Changed"/>
+                        <TextBox Name ="Weight" BorderBrush="#FFD5DFE5" Margin="10,4" Visibility="{Binding ElementName=WeightManual, Path=IsChecked, Converter={StaticResource BooleanToVisibilityConverter}}" TextChanged="Data_Changed" />
+                        <CheckBox Name="MarkWay" Content="Выделить путь" Margin="4" Checked="Data_Changed" />
+                    </StackPanel>
+                </GroupBox>
+                <Button Content="Сохранить" Margin="10,2" HorizontalAlignment="Stretch" Name="SaveBtn" Click="Save_Click" />
+                <Button Content="Отмена" Margin="10,2,10,10" HorizontalAlignment="Stretch" Name="CloseBtn" Click="Close_Click" />
+            </StackPanel>
+        </Grid>
+    </Border>
+</Window>

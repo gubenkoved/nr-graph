@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GraphLib.Algorithm" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEAAAAAAUAAAAAAAAAAAAAAEEAAAA=</HashCode>
+      <FileName>Algorithm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphLib.AlgorithmException" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AlgorithmDefining.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphLib.CalculatingComponentsConnectedness" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgBAAAAAAAAAAAQQAAAAAAFAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AlgorithmDefining.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GraphLib.Deikstra" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQQAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AlgorithmDefining.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GraphLib.Weigher" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQQAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AlgorithmDefining.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GraphLib.Kruskal" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAgAAAAAQQgAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AlgorithmDefining.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GraphLib.AlgorithmLib" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AlgorithmLib.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphLib.Graph">
+    <Position X="0.5" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Graph.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphLib.GraphHistory">
+    <Position X="8" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABCAAAACEAAAAAAAAAAAAAACAAAAAAAFAAgA=</HashCode>
+      <FileName>GraphHistory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphLib.GraphNode">
+    <Position X="5.75" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAIAQAAAAEAAAABAAAAAAAAAA=</HashCode>
+      <FileName>GraphNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphLib.GraphWay">
+    <Position X="3.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAIAAAAAAIAAAAAAAAgAAAAMAAAABAAAAAAAAAA=</HashCode>
+      <FileName>GraphWay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphLib.UIClasses.UIGraphNode">
+    <Position X="5.75" Y="7" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAACAAAAAgAgAgACIAAAAAIAIAQAgQDgCAAAAQIQA=</HashCode>
+      <FileName>UI.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GraphLib.UIClasses.UIGraphWay">
+    <Position X="3.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAACAACAAgAgAAAAAAAAAAAAAIAAAQBgAAAAAAIQA=</HashCode>
+      <FileName>UI.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GraphLib.UIClasses.UIGraph">
+    <Position X="0.5" Y="7" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAgAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GraphLib.UIClasses.GraphCanvas" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAgABABCAAAAAAAQAABAAACGoAAgAAACAIAAAAAI=</HashCode>
+      <FileName>UI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="GraphLib.IReturnGraphWithText" Collapsed="true">
+    <Position X="13.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AlgorithmDefining.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GraphLib.IReturnGraph" Collapsed="true">
+    <Position X="11.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AlgorithmDefining.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GraphLib.IReturnText" Collapsed="true">
+    <Position X="11.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AlgorithmDefining.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GraphLib.IReturnNothing" Collapsed="true">
+    <Position X="10" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AlgorithmDefining.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GraphLib.UIClasses.IDrawable" Collapsed="true">
+    <Position X="10" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="GraphLib.NodeStyle" Collapsed="true">
+    <Position X="10" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>GraphNode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GraphLib.WayStyle" Collapsed="true">
+    <Position X="11.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>GraphWay.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
